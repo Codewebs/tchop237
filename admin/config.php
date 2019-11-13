@@ -1,11 +1,11 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://127.0.0.1/tchop237/admin/');
-define('HTTP_CATALOG', 'http://127.0.0.1/tchop237/');
+define('HTTP_SERVER', 'https://tchop237.herokuapp.com/admin/');
+define('HTTP_CATALOG', 'https://tchop237.herokuapp.com/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://127.0.0.1/tchop237/admin/');
-define('HTTPS_CATALOG', 'http://127.0.0.1/tchop237/');
+define('HTTPS_SERVER', 'https://tchop237.herokuapp.com/admin/');
+define('HTTPS_CATALOG', 'https://tchop237.herokuapp.com/');
 
 // DIR
 define('DIR_APPLICATION', './');
