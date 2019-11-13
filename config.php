@@ -6,7 +6,7 @@ define('HTTP_SERVER', 'http://127.0.0.1/tchop237/');
 define('HTTPS_SERVER', 'http://127.0.0.1/tchop237/');
 
 // DIR
-define('DIR_APPLICATION', 'C:/xampp/htdocs/tchop237/catalog/');
+define('DIR_APPLICATION', 'https://tchop237.herokuapp.com/catalog/');
 define('DIR_SYSTEM', 'C:/xampp/htdocs/tchop237/system/');
 define('DIR_IMAGE', 'C:/xampp/htdocs/tchop237/image/');
 define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
