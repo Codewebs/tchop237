@@ -1,14 +1,14 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://tchop237.herokuapp.com/');
+define('HTTP_SERVER', 'http://127.0.0.1/tchop237/');
 
 // HTTPS
-define('HTTPS_SERVER', 'https://tchop237.herokuapp.com/');
+define('HTTPS_SERVER', 'http://127.0.0.1/tchop237/');
 
 // DIR
-define('DIR_APPLICATION', './catalog/');
-define('DIR_SYSTEM', './system/');
-define('DIR_IMAGE', './image/');
+define('DIR_APPLICATION', 'C:/xampp/htdocs/tchop237/catalog/');
+define('DIR_SYSTEM', 'C:/xampp/htdocs/tchop237/system/');
+define('DIR_IMAGE', 'C:/xampp/htdocs/tchop237/image/');
 define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
@@ -22,9 +22,9 @@ define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'us-cdbr-iron-east-05.cleardb.net');
-define('DB_USERNAME', 'bdc544f82295b8');
-define('DB_PASSWORD', '65169927');
-define('DB_DATABASE', 'heroku_d5243f28b216730');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_DATABASE', 'tchop237');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'oc_');
