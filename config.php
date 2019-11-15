@@ -1,14 +1,21 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://tchop237.herokuapp.com/');
+define('HTTP_SERVER', 'http://www.tchop237.herokuapp.com/');
 
 // HTTPS
 define('HTTPS_SERVER', 'https://tchop237.herokuapp.com/');
+echo __FILE__;
+echo "<br />";
+echo __DIR__ ;
+echo "<br />";
+
+echo "<br />";
+echo $_SERVER["DOCUMENT_ROOT"];
 
 // DIR
 define('DIR_APPLICATION', 'catalog/');
 define('DIR_SYSTEM', 'system/');
-define('DIR_IMAGE', './image/');
+define('DIR_IMAGE', $_SERVER["DOCUMENT_ROOT"].'/image/');
 define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
