@@ -1,16 +1,16 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://127.0.0.1/tchop237/admin/');
-define('HTTP_CATALOG', 'http://127.0.0.1/tchop237/');
+define('HTTP_SERVER', 'http://tchop237.herokuapp.com/admin/');
+define('HTTP_CATALOG', 'http://tchop237.herokuapp.com/');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://127.0.0.1/tchop237/admin/');
-define('HTTPS_CATALOG', 'http://127.0.0.1/tchop237/');
+define('HTTPS_SERVER', 'https://tchop237.herokuapp.com/admin/');
+define('HTTPS_CATALOG', 'https://tchop237.herokuapp.com/');
 
 // DIR
-define('DIR_APPLICATION', 'C:/xampp/htdocs/tchop237/admin/');
-define('DIR_SYSTEM', 'C:/xampp/htdocs/tchop237/system/');
-define('DIR_IMAGE', 'C:/xampp/htdocs/tchop237/image/');
+define('DIR_APPLICATION', './admin/');
+define('DIR_SYSTEM', '../system/');
+define('DIR_IMAGE', '../image/');
 define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
 define('DIR_CATALOG', 'C:/xampp/htdocs/tchop237/catalog/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
