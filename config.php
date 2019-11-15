@@ -6,7 +6,7 @@ define('HTTP_SERVER', 'http://tchop237.herokuapp.com/');
 define('HTTPS_SERVER', 'https://tchop237.herokuapp.com/');
 
 // DIR
-define('DIR_APPLICATION', 'http://tchop237.herokuapp.com/catalog/');
+define('DIR_APPLICATION', 'catalog/');
 define('DIR_SYSTEM', 'system/');
 define('DIR_IMAGE', 'image/');
 define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
