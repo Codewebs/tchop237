@@ -7,7 +7,7 @@ define('HTTPS_SERVER', 'https://tchop237.herokuapp.com/');
 echo __FILE__;
 echo "<br />";
 echo __DIR__ ;
-echo "<br />".3333;
+echo "<br />";
 
 echo "<br />";
 echo $_SERVER["DOCUMENT_ROOT"];
