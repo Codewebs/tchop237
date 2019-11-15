@@ -8,7 +8,7 @@ define('HTTPS_SERVER', 'https://tchop237.herokuapp.com/');
 // DIR
 define('DIR_APPLICATION', 'catalog/');
 define('DIR_SYSTEM', 'system/');
-define('DIR_IMAGE', 'image/');
+define('DIR_IMAGE', 'http://tchop237.herokuapp.com/image/');
 define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
