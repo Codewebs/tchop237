@@ -8,7 +8,7 @@ define('HTTPS_SERVER', 'https://tchop237.herokuapp.com/');
 // DIR
 define('DIR_APPLICATION', 'catalog/');
 define('DIR_SYSTEM', 'system/');
-define('DIR_IMAGE', 'http://tchop237.herokuapp.com/image/');
+define('DIR_IMAGE', './image/');
 define('DIR_STORAGE', DIR_SYSTEM . 'storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
@@ -19,7 +19,7 @@ define('DIR_LOGS', DIR_STORAGE . 'logs/');
 define('DIR_MODIFICATION', DIR_STORAGE . 'modification/');
 define('DIR_SESSION', DIR_STORAGE . 'session/');
 define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
-
+echo DIR_IMAGE;
 // DB
 /*define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
