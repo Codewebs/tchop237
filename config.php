@@ -6,10 +6,12 @@ define('HTTP_SERVER', 'http://www.tchop237.herokuapp.com/');
 define('HTTPS_SERVER', 'https://tchop237.herokuapp.com/');
 echo __FILE__;
 echo "<br />";
+echo "<h1>Elle me dit qu'elle a mal</h1>"
 echo __DIR__ ;
 echo "<br />";
 
 echo "<br />";
+echo "<h1> Je vais faire du sale </h1>"
 echo $_SERVER["DOCUMENT_ROOT"];
 
 // DIR
