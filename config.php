@@ -19,7 +19,7 @@ define('DIR_LOGS', DIR_STORAGE . 'logs/');
 define('DIR_MODIFICATION', DIR_STORAGE . 'modification/');
 define('DIR_SESSION', DIR_STORAGE . 'session/');
 define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
-
+ echo __DIR__;
 // DB
 /*define('DB_DRIVER', 'mysqli');
 define('DB_HOSTNAME', 'localhost');
