@@ -37,7 +37,7 @@ Monetbil::setLast_name($lastname);
 Monetbil::setEmail($email);
 Monetbil::setLogo('./assets/img/indiza_logo.png');
 Monetbil::setReturn_url('https://tchop237.herokuapp.com/');
-Monetbil::setNotify_url('https://tchop.herokuapp.com/addorder');
+Monetbil::setNotify_url('https://tchop.herokuapp.com/addPayment');
 
 $payment_url = Monetbil::url();
 ?> 
