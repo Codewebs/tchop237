@@ -13,21 +13,30 @@
 
 require_once './monetbil.php';
 
+
+$phone = $_GET['customer_phone'];
+$email = "landryhion@gmail.com";
+$amount = $_GET['amount'];  
+$user_id = $_GET['customer_id'];
+$firstname = $_GET['customer_firstname'];
+$lastname = $_GET['customer_lastname'];
+$payement_ref = $_GET['payement_ref'];
+$item_ref = $_GET['item_ref'];
 // Setup Monetbil arguments
-Monetbil::setAmount(500);
+Monetbil::setAmount($amount);
 Monetbil::setCurrency('XAF');
 Monetbil::setLocale('en'); // Display language fr or en
-Monetbil::setPhone('694535789');
+Monetbil::setPhone($phone);
 Monetbil::setCountry('CM');
 Monetbil::setItem_ref('2536');
 Monetbil::setPayment_ref('d4be3535f9cb5a7aff1f84fa94e6f0853');
 Monetbil::setUser(12);
-Monetbil::setFirst_name('Envy');
-Monetbil::setLast_name('Lord');
-Monetbil::setEmail('landryhion@gmail.com.com');
+Monetbil::setFirst_name($firstname);
+Monetbil::setLast_name($lastname);
+Monetbil::setEmail($email);
 Monetbil::setLogo('./assets/img/indiza_logo.png');
 Monetbil::setReturn_url('https://tchop237.herokuapp.com/');
-Monetbil::setNotify_url('https://tchop.herokuapp.com/findProducts');
+Monetbil::setNotify_url('https://tchop.herokuapp.com/addorder');
 
 $payment_url = Monetbil::url();
 ?> 
