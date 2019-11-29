@@ -23,13 +23,14 @@ $lastname = $_GET['customer_lastname'];
 $payement_ref = $_GET['payement_ref'];
 $item_ref = $_GET['item_ref'];
 // Setup Monetbil arguments
+echo $payement_ref;
 Monetbil::setAmount($amount);
 Monetbil::setCurrency('XAF');
 Monetbil::setLocale('en'); // Display language fr or en
 Monetbil::setPhone($phone);
 Monetbil::setCountry('CM');
-Monetbil::setItem_ref('2536');
-Monetbil::setPayment_ref('d4be3535f9cb5a7aff1f84fa94e6f0853');
+Monetbil::setItem_ref($item_ref);
+Monetbil::setPayment_ref($payement_ref);
 Monetbil::setUser(12);
 Monetbil::setFirst_name($firstname);
 Monetbil::setLast_name($lastname);
