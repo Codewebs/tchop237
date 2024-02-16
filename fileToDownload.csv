@@ -1,0 +1,13 @@
+# Categories
+0;Science;en;cat1
+1;Histoire;fr;cat1
+2;Media;en;cat1
+
+# SubCategories
+0;math;0;fr;cat1;0
+1;SVT;0;fr;cat1;0
+
+# Questions
+1;Which planet is the largest planet in the soloar system ?;Earth;Mars;Neptune;Jupiter;d;3;0;0;0;en;q_1;null
+2;Which of the following substances is used as an ant-cance medication in the medical world ?;Cheese;Lemon juice;Cannabis;Paspalum;c;2;0;0;0;en;q_3;null
+3;Which country is the largest country in the soloar system ?;Russia;Canada;United State;China;a;4;1;0;0;en;q_4;null
